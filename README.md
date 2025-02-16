@@ -71,10 +71,12 @@ Configuring and adding boot images into Windows Deployment Server.
 	
 	1. Find your deployment share, and inside the Boot folder, you should see the "LiteTouchPE_x64.wim" file. Note that your file might have been renamed, along with your deployment share. For this tutorial, I'm using the original folder path and boot image.
 
+![image](https://github.com/user-attachments/assets/82522f87-5c97-46dd-a8c7-6618751e6701)
 
 
 	2. Copy the "LiteTouchPE_x64.wim" to your Windows Deployment Server, then import the .wim boot image file into the Windows Deployment Server. To do this, expand the left pane, right-click the "Boot Images" folder, and select "Add Boot Image…"
 
+![image](https://github.com/user-attachments/assets/78098c5a-9222-4be4-a7ce-114eed3fbffe)
 
 
 	3. A "Add Image Wizard" will appear, specify the boot image location to import and click 'Next' when you're ready.
