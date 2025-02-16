@@ -1,4 +1,4 @@
-
+How to configure WDS to enable both boot images to boot successfully
 
 	Pre-requisites:
 
