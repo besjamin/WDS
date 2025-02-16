@@ -110,37 +110,44 @@ Adding the SCCM boot image into WDS
 
 Note: Be sure to copy the boot.{PackageID}.wim file, as this is the one that will have all the ConfigMgr binaries. You can rename it to whatever you like when it's copied to a working directory. 
 
+![image](https://github.com/user-attachments/assets/3f4ab1d8-60be-4aba-8fc6-8e05a8903bd8)
 
 
 	3. On your WDS servers, create a working directory named "boot_image" and create a sub-folder named "mount", which will be used to mount the wim. Ensure the boot.{PackageID}.wim and the Configuration Manager bootable image are in your working directory.
 	
-
+![image](https://github.com/user-attachments/assets/aaf94a7e-0b2f-48c0-9353-34c232164be6)
 
 
 	4. Open an elevated command prompt and mount the boot wim file to a temporary mount directory, mine will be in C:\Users\bmasri\desktop\boot_image\mount. Here's the command that I will also be using.
 
 dism /mount-wim /wimfile:"C:\Users\bmasri\Desktop\boot_image\boot.P0100005.wim" /index:1 /mountdir:"C:\Users\bmasri\Desktop\boot_image\mount"
 
+![image](https://github.com/user-attachments/assets/e218067f-cede-4361-9db2-b9cb123b649e)
 
 
 	5. Now mount the sccm_boot.iso image by double clicking on the file and navigate to /SMS/data. You will see two files named "TsmBootstrap.ini" and "Variables.dat" file. Copy those two files into your WDS working directory. 
 
+![image](https://github.com/user-attachments/assets/e90058f8-d0dc-4a05-92d0-7a9b6fcf7ad5)
 
 
 	6. Create a folder called "data" in the mount/sms directory, then copy the "TsmBootstrap.ini" and "Variables.dat" files into it
 
+![image](https://github.com/user-attachments/assets/a9d21a13-6190-4708-8bc1-fbe8883316f6)
 
 
 	7. Exit out of the mount directory and open the evaluated command prompt window, type the following command to unmount the wim.
 	
 dism /unmount-wim /mountdir:"C:\Users\bmasri\Desktop\boot_image\mount" /commit
 
+![image](https://github.com/user-attachments/assets/4e03709c-4d13-487e-bef7-00937cf7b683)
 
 
 	8. Import the SCCM boot image you just created using DISM into WDS. Once imported, restart the WDS service by right-clicking on your server in the WDS console, selecting All Tasks, and then choosing restart.
 
+![image](https://github.com/user-attachments/assets/c87bfddc-82fc-4130-9c18-823f2241018d)
 
 
 	9. Use a device to boot into PXE and you should be able to boot from two bootable images.
 
+![image](https://github.com/user-attachments/assets/31271361-4832-468b-8777-5e51f0af9b59)
 
