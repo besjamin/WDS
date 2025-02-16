@@ -86,7 +86,8 @@ Configuring and adding boot images into Windows Deployment Server.
 
 	4. You can specify the image name or description if you like, otherwise you can leave it as default and click next to import.
 
-![image](https://github.com/user-attachments/assets/a41e85ae-18cf-4df4-857f-c880aaee7b16)
+![image](https://github.com/user-attachments/assets/558428a2-2ebf-4ed9-b86c-2a4bbf7dd5d8)
+
 
 
 	5. It should start importing the boot image successfully and you should be able to see the below screenshot.
