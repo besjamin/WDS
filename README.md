@@ -40,23 +40,28 @@ Configure Windows Deployment Server
 
 	1. Locate and open Windows Deployment Server, you will need to configure the server to allow TFTP requests within your organisation. Expand the left pane, and select your server under "Servers", then click "Configure Server".
 
+![image](https://github.com/user-attachments/assets/f37fc64a-2627-4ba0-98a9-4765d50fd9b0)
 
 
 	2. A setup wizard will appear, click next and ensure you select 'Standalone server'.
 
+![image](https://github.com/user-attachments/assets/bdff8d5f-0cb4-44f7-80cf-47a7e671941f)
 
 
 	3. Specify a path to the remote installation folder, it is best practice to store the remote installation folder to another partition/drive. Once you've specified a location, click "Next".
 
+![image](https://github.com/user-attachments/assets/6c5b3264-5bb9-4f72-b781-254e068f632f)
 
 
 	4. Select "Respond to all client computers (known and unknown)", and click next. 
 
+![image](https://github.com/user-attachments/assets/c0bef003-292a-44d6-aeb1-5de2c2d002e6)
 
 
 
 	5. Ensure that your WDS server is running with no errors, refer to the screenshot below.
 	
+![image](https://github.com/user-attachments/assets/4497e9e9-b15c-4faf-bcf0-afcef3a93f74)
 
 
 
