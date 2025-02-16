@@ -16,19 +16,23 @@ Enable and Install Windows Deployment Server using Server Manager.
 	2. Click "Next" button once more to skip the 'Features' step.
 	
 
+![image](https://github.com/user-attachments/assets/c64c6a08-62ec-4c86-8514-da169757339d)
 
 
 	3. Ensure both "Role services" are selected, and then click next.
-	
 
+ 
+![image](https://github.com/user-attachments/assets/f776e1c9-ba2b-4914-b4f7-77cf530a7e12)
 
 
 	4. Click the "Install" button, and now Server Manager will start installing the WDS roles/features.
 	
+![image](https://github.com/user-attachments/assets/696fb9d0-25b0-4e7f-80fa-7c5c83c5ad76)
 
 
 	5. Once the wizard completes the installation process, the setup should appear as shown below, ready for use.
 
+![image](https://github.com/user-attachments/assets/071351f4-a1e1-4471-8704-9e5d23bdf301)
 
 
 
