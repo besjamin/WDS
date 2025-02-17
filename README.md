@@ -1,4 +1,4 @@
-How to configure WDS to enable both boot images to boot successfully
+How to configure WDS to enable both MDT and SCCM to boot successfully in PXE.
 
 	Pre-requisites:
 
