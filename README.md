@@ -8,7 +8,7 @@ How to configure WDS to enable both boot images to boot successfully
 
 Enable and Install Windows Deployment Server using Server Manager.
 
-	1. Open "Server Manager" and install the following roles, "Windows Deployment Services", and another window will appear, click on the "Add Features" button, then click the "Next" button:
+	1. Open "Server Manager" and install the "Windows Deployment Services" role, and another window will appear, click on the "Add Features" button, then click the "Next" button:
 
 ![image](https://github.com/user-attachments/assets/9000d478-ae09-4599-b743-843cdf11b0a5)
 
